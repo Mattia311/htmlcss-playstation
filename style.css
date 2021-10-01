@@ -18,6 +18,7 @@ body {
     width: 100%;
     height: 70px;
     background: white;
+    --bs-gutter-x:0;
 }
 .img-logo-play {
     width: 70px;
@@ -25,9 +26,6 @@ body {
 a {
     text-decoration: none;
     color: black;
-}
-.row {
-    --bs-gutter-x:0;
 }
 ol, ul {
     padding-left: 0.5rem;
@@ -50,4 +48,59 @@ ul li{
 }
 .img-lens {
     width: 30px;
+}
+.main-top {
+    background-image: url(./img/jumbo-bg.png);
+    height: 720px;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-top: 120px;
+}
+.img-returnal-listing {
+    width: 100%;
+    border-radius: 20px;
+}
+.img-ratchet {
+    width: 100%;
+    border-radius: 20px;
+}
+.principale {
+    border: 4px solid #2285D5;
+}
+.img-principal {
+    margin-bottom: 150px;
+}
+.text-limits {
+    color: #338ED7;
+    margin-bottom: 0;
+}
+.text-limits-due {
+    color: #747474;
+    font-size: 22px;
+    margin-top: 35px;
+    margin-bottom: 100px;
+}
+.img-playstation {
+    width: 100%;
+}
+h1 {
+    font-size: 46px;
+}
+.button-informazioni {
+    color: white;
+    background: #2D64E6;
+    border: none;
+    border-radius: 25px;
+    width: 150px;
+    height: 35px;
+    font-size: 14px;
+}
+.text-sperimenta {
+    color: #747474;
+    font-size: 22px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.testo {
+    margin-top: 200px;
 }
