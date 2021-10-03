@@ -65,7 +65,7 @@ ul li{
     padding-top: 320px;
     padding-left: 40px;
 }
-.img-returnal {
+.img-returnal-hero-banner {
     width: 250px;
     padding-bottom: 50px;
 }
@@ -130,9 +130,17 @@ h1 {
 .testo {
     margin-top: 200px;
 }
+.gadget-play-principal {
+    width: 50%;
+    margin-left: 61px;
+}
 .gadget-play {
     width: 50%;
     margin-left: 61px;
+    opacity: 0.6;
+}
+.para {
+    color: #A9A9A9;
 }
 .gadget {
     margin-top: 70px;
@@ -149,9 +157,13 @@ h1 {
     background-position: center;
     background-size: cover;
     color: white;
-    padding-top: 260px;
+    padding-top: 60px;
     padding-left: 40px;
     
+}
+.img-it-takes-two {
+    width: 270px;
+    margin-bottom: 60px;
 }
 .main-new-exit {
     width: 100%;
