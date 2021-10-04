@@ -69,6 +69,11 @@ ul li{
     width: 250px;
     padding-bottom: 50px;
 }
+.text-hero-banner {
+    width: 353px;
+    box-sizing: content-box;
+}
+
 .cerchio {
     margin-bottom: 30px;
 }
@@ -85,12 +90,12 @@ ul li{
     width: 100%;
     border-radius: 20px;
 }
+.principal {
+    border: 4px solid #2285D5
+}
 .img-ratchet {
     width: 100%;
     border-radius: 20px;
-}
-.principale {
-    border: 4px solid #2285D5;
 }
 .img-principal {
     margin-bottom: 150px;
@@ -138,6 +143,7 @@ h1 {
     width: 50%;
     margin-left: 61px;
     opacity: 0.6;
+    transition: 1s;
 }
 .para {
     color: #A9A9A9;
@@ -212,7 +218,7 @@ h3 {
     margin-bottom: 90px;
 }
 .img-plus-top {
-    width: 50%;
+    width: 300px;
     margin-top: 120px;
 }
 .img-plus-bottom {
@@ -259,7 +265,7 @@ h3 {
     margin-top: 20px;
 }
 .img-social {
-    width: 100%;
+    width: 80%;
 }
 .social-play {
     margin-top: 60px;
@@ -301,4 +307,77 @@ h3 {
     font-size: 17px;
     line-height: 30px;
     padding-bottom: 100px;
+}
+/* media query */
+@media screen and (max-width: 575.98px) {
+    .text-hero-banner {
+        width: 100%;
+    }
+    .cerchio {
+        width: 100%;
+    }
+    
+}
+@media screen and (max-width: 989px) {
+    .card-img-top {
+        width: 500px;
+    }
+    
+}
+@media screen and (max-width: 767px) {
+    .img-plus-bottom {
+        display: none;
+    }
+    .img-now-bottom {
+        display: none;
+    }
+    .text-plus {
+        width: 100%;
+    }
+    .button-plus {
+        margin-top: 20px;
+    }
+}
+/* hover */
+ul > li:hover {
+    color: blue;
+}
+.principal:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.one:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.two:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.three:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.four:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.five:hover {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+.controller:hover {
+    opacity: 1;
+}
+.cuffie:hover {
+    opacity: 1;
+}
+.telecomando:hover {
+    opacity: 1;
+}
+.telecamera:hover {
+    opacity: 1;
+}
+.para:hover {
+    color: black;
 }
