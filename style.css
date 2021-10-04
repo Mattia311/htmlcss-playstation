@@ -21,6 +21,9 @@ body {
     background: white;
     --bs-gutter-x:0;
 }
+.nav-bar-top {
+    padding-right:0;
+}
 .img-logo-play {
     width: 70px;
 }
@@ -339,7 +342,7 @@ h3 {
     }
 }
 /* hover */
-ul > li:hover {
+.nav-link:hover {
     color: blue;
 }
 .principal:hover {
